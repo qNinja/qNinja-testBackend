@@ -5,7 +5,7 @@
 	"description": "A testing API backend for qNinja that does not interact with live data.",
 	"keywords": [ "qNinja", "qMon" ],
 	"bugs": "https://github.com/qNinja/qNinja-testBackend/issues",
-	"license": "BSD-3-Clause"
+	"license": "BSD-3-Clause",
 	"author": {
 		"name": "Mark N Broadhead",
 		"email": "MarkNBroadhead@gmail.com",
