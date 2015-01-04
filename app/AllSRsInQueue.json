@@ -36,7 +36,7 @@
 		"SR_SUBTYPE_SUPT_PROD_COLLAB":"Supported Product Issue",
 		"SERVICE_LEVEL":"2",
 		"CID":"",
-		"SR_BRIEF_DESC":"Please help me analyze this tcpdump.",
+		"SR_BRIEF_DESC":"Please help me analyze this tcpdump for a DDoS attack.",
 		"SR_LAST_ACT_COMMENT":"Dear Trogdor,\r\n\r\nService Request  # 00000000002 has been created.  \r\n\r\n SUMMARY OF SR # 00000000002",
 		"ACCOUNT":"||NOVELL",
 		"CONTACT_PHONE":"+5555555555\n000 00000000",
