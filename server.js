@@ -23,11 +23,11 @@ router.get('/', function(req, res) {
 router.get('/assignSR.asp', function(req, res) {
 	if ( req.query.owner === undefined || req.query.owner === 'undefined') {
 		console.log('ERROR: undefined owner');
-		res.send(400, { error: 'Invalid owner was specified (or not specified)' });
+		res.status(400).json({ error: 'Invalid owner was specified (or not specified)' });
 	}
 	else if ( req.query.sr === undefined ) {
 		console.log('ERROR: undefined SR')
-		res.send(400, { error: 'Invalid SR was specified (or not specified)' });
+		res.status(400).json({ error: 'Invalid SR was specified (or not specified)' });
 	}
 	else {
 		console.log('SR ' + req.query.sr + ' assigned to ' + req.query.owner);
